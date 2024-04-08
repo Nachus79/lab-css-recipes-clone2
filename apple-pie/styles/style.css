@@ -11,10 +11,10 @@ html {
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 200px;
-  padding: 0;
+  padding: 10px;
   font-weight: lighter;
   text-align: justify;
-  background-image: url("images/apple-pie.jpg");
+   
 }
 
 /*  Set the font */
@@ -22,9 +22,24 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-header {
-  background-image: url("images/apple-pie.jpg");
-}
+h1{
+ color: white;
 
+}
+header{
+  background-color: black;
+  background-image: url("apple-pie.jpg");
+  padding: 50px;
+  size: 5px;
+  align: justify;
+}
+#ingredientes{
+  border-top: solid;
+  margin-top: 15px ;
+}
+#direcciones{
+  border-top: solid;
+  margin-top: 15px ;
+}
 /* STYLES */
 /* Write your CSS below */
